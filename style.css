@@ -1,0 +1,57 @@
+body {
+  background-color: #f1f1f1;
+  font-family: "Arial", sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.game__btns {
+  display: flex;
+  justify-content: center;
+}
+
+.game__btn {
+  border: none;
+  font-size: 48px;
+  margin: 0 12px;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.game__btn:hover {
+  opacity: .7;
+} 
+
+#Камень {
+  background-color: #ff0000;
+}
+
+#Ножницы {
+  background-color: #4caf50;
+}
+
+#Бумага {
+  background-color: #2196f3;
+}
+
+#user-score {
+  color: #2196f3;
+}
+
+#computer-score {
+  color: #ff0000;
+}
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Камень, ножницы, бумага</title>
+</head>
+<body>
+  <div class="game">
+    <h1>Камень, ножницы, бумага</h1>
+    <p>Выберите ваш ход:</p>
+    <div class="game__btns">
+      <button id="Камень" class="game__btn">&#x1F44A;</button>
+      <button id="Ножницы" class="game__btn">&#x270c;</button>
+      <button id="Бумага" class="game__btn">&#x1f590;</button>
+    </div>
+    <p id="result"></p>
+    <p class="scores">
+      Ваш счет: <span id="user-score">0</span> <br>
+      Счет компьютера: <span id="computer-score">0</span>
+    </p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
