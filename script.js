@@ -32,10 +32,10 @@ function playRound(userMove, computerMove) {
   ) {
     userScore++;
     userScoreEl.textContent = userScore;
-    return `Вы победили! ${userMove} бьет ${computerMove}`;
+    return `Вы победили! ${userMove} > ${computerMove}`;
   } else {
     computerScore++;
     computerScoreEl.textContent = computerScore;
-    return `Вы проиграли. ${computerMove} бьет ${userMove}`;
+    return `Вы проиграли. ${computerMove} > ${userMove}`;
   }
 }
